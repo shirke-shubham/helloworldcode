@@ -3,7 +3,7 @@ kind: WorkflowTemplate
 metadata:
   name: hello-world-pipeline_1
   annotations: 
-    scenarios.ai.sap.com/name: "Hello World Workflow"
+    scenarios.ai.sap.com/name: "Hello World Workflow_1"
     scenarios.ai.sap.com/description: "Simple workflow to print Hello World"
     executables.ai.sap.com/name: "Hello World Printer"
     executables.ai.sap.com/description: "Prints a greeting as a workflow step"
