@@ -1,9 +1,9 @@
 apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
-  name: hello-world-serving
+  name: hello-world-serving_1
   annotations:
-    scenarios.ai.sap.com/name: "Hello World Serving"
+    scenarios.ai.sap.com/name: "Hello World Serving_1"
     scenarios.ai.sap.com/description: "Simple serving executable to return a greeting"
     executables.ai.sap.com/name: "Hello World Server"
     executables.ai.sap.com/description: "Returns a static greeting via a simple server"
